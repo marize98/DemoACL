@@ -11,7 +11,7 @@ pipeline {
         stage('Source') {
             steps {
                 // Checkout source code from GitHub
-                git 'https://github.com/my-org/my-repo.git'
+                git 'https://github.com/marize98/DemoACL.git'
             }
         }
         stage('Build') {
